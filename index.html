@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>L9-fr API client</title>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <div id="container">
+            <h1>L9-fr API Client V 0.1</h1>
+            <form method="post">
+                <h2>Execution d'une requete</h2>
+                <p class="box_search">
+                    <select id="method" name="method">
+                        <option>GET</option>
+                        <option>POST</option>
+                    </select><input id="url" name="url" type="text" placeholder="http://api.domain.com/users" /><button type="submit">Executer</button>
+                </p>
+            </form>
+            <h2>Résultat</h2>
+            <pre id="resultat"></pre>
+        </div>
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
