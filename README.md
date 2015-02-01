@@ -1,2 +1,2 @@
 # client
-react client api
+client api
